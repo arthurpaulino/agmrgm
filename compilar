@@ -1,0 +1,1 @@
+g++ -L. -L/usr/ilog/cplex110/lib/x86_rhel4.0_3.4/static_pic -L/usr/ilog/concert25/lib/x86_rhel4.0_3.4/static_pic -I. -I/usr/ilog/cplex110/include/ -I/usr/ilog/concert25/include *.cpp -o exp -DIL_STD -lilocplex -lcplex -lconcert -m32 -lm -pthread -O3 -DLONG_MAX
